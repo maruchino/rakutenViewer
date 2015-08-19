@@ -6,4 +6,17 @@
 //  Copyright (c) 2015年 sonicmoov. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+import Result
+
+public class SearchManager: NSObject{
+    private typealias Response = Result<[ItemJSON], NSError>
+    
+    lazy var client: APIClient = APIClient()
+    
+    public func searchItems(keyword: String, handler: Result<ItemsJSON, NSError> -> ()){
+        client.request(SearchEndpoint(keyword: keyword), handler: handler)
+    }
+}
+

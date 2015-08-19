@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79C46B2AD6BC7FEC3997D658 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5BDA02BF6D6590F5EF8C79 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EC501ABD1B83042200D9256D /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC501ABC1B83042200D9256D /* ItemsViewController.swift */; };
+		EC501ABF1B830A4100D9256D /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC501ABE1B830A4100D9256D /* BrowserViewController.swift */; };
+		EC501AC11B830B7700D9256D /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC501AC01B830B7700D9256D /* SearchManager.swift */; };
+		EC501AC31B830CB800D9256D /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC501AC21B830CB800D9256D /* EndPoints.swift */; };
+		EC501AC71B8317BB00D9256D /* ItemJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC501AC61B8317BB00D9256D /* ItemJSON.swift */; };
 		ECB2E1EC1B82CF1B00BF4493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2E1EB1B82CF1B00BF4493 /* AppDelegate.swift */; };
 		ECB2E1EE1B82CF1B00BF4493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2E1ED1B82CF1B00BF4493 /* ViewController.swift */; };
 		ECB2E1F11B82CF1B00BF4493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB2E1EF1B82CF1B00BF4493 /* Main.storyboard */; };
 		ECB2E1F31B82CF1B00BF4493 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB2E1F21B82CF1B00BF4493 /* Images.xcassets */; };
 		ECB2E1F61B82CF1B00BF4493 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB2E1F41B82CF1B00BF4493 /* LaunchScreen.xib */; };
 		ECB2E2021B82CF1B00BF4493 /* rakutenViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2E2011B82CF1B00BF4493 /* rakutenViewerTests.swift */; };
+		ECB2E20C1B82D13000BF4493 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2E20B1B82D13000BF4493 /* APIClient.swift */; };
+		ECEE04C71B845BAC00FFCEFB /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEE04C61B845BAC00FFCEFB /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E319CC9C0FB8D23A8759A78F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EC501ABC1B83042200D9256D /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		EC501ABE1B830A4100D9256D /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		EC501AC01B830B7700D9256D /* SearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		EC501AC21B830CB800D9256D /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		EC501AC61B8317BB00D9256D /* ItemJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemJSON.swift; sourceTree = "<group>"; };
 		ECB2E1E61B82CF1B00BF4493 /* rakutenViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rakutenViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB2E1EA1B82CF1B00BF4493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB2E1EB1B82CF1B00BF4493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +50,10 @@
 		ECB2E1FB1B82CF1B00BF4493 /* rakutenViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rakutenViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB2E2001B82CF1B00BF4493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB2E2011B82CF1B00BF4493 /* rakutenViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rakutenViewerTests.swift; sourceTree = "<group>"; };
+		ECB2E20B1B82D13000BF4493 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		ECEE04C61B845BAC00FFCEFB /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCell.swift; path = "../../../Downloads/ios-intern-rakuten-api-sample-master-2/intern-sample/Classes/Views/ItemCell.swift"; sourceTree = "<group>"; };
+		EE5BDA02BF6D6590F5EF8C79 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F850F0A3A7A93EF4D2990847 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C46B2AD6BC7FEC3997D658 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +75,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2010FCF308273FA05DB3DC0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F850F0A3A7A93EF4D2990847 /* Pods.debug.xcconfig */,
+				E319CC9C0FB8D23A8759A78F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3AF58D34E231B5E9BF067195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5BDA02BF6D6590F5EF8C79 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECB2E1DD1B82CF1B00BF4493 = {
 			isa = PBXGroup;
 			children = (
 				ECB2E1E81B82CF1B00BF4493 /* rakutenViewer */,
 				ECB2E1FE1B82CF1B00BF4493 /* rakutenViewerTests */,
 				ECB2E1E71B82CF1B00BF4493 /* Products */,
+				2010FCF308273FA05DB3DC0B /* Pods */,
+				3AF58D34E231B5E9BF067195 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +115,15 @@
 		ECB2E1E81B82CF1B00BF4493 /* rakutenViewer */ = {
 			isa = PBXGroup;
 			children = (
+				ECEE04C61B845BAC00FFCEFB /* ItemCell.swift */,
+				EC501ABC1B83042200D9256D /* ItemsViewController.swift */,
+				EC501ABE1B830A4100D9256D /* BrowserViewController.swift */,
+				EC501AC01B830B7700D9256D /* SearchManager.swift */,
+				EC501AC21B830CB800D9256D /* EndPoints.swift */,
+				EC501AC61B8317BB00D9256D /* ItemJSON.swift */,
 				ECB2E1EB1B82CF1B00BF4493 /* AppDelegate.swift */,
 				ECB2E1ED1B82CF1B00BF4493 /* ViewController.swift */,
+				ECB2E20B1B82D13000BF4493 /* APIClient.swift */,
 				ECB2E1EF1B82CF1B00BF4493 /* Main.storyboard */,
 				ECB2E1F21B82CF1B00BF4493 /* Images.xcassets */,
 				ECB2E1F41B82CF1B00BF4493 /* LaunchScreen.xib */,
@@ -119,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB2E2051B82CF1B00BF4493 /* Build configuration list for PBXNativeTarget "rakutenViewer" */;
 			buildPhases = (
+				9814A7753B909A5411CD2D01 /* Check Pods Manifest.lock */,
 				ECB2E1E21B82CF1B00BF4493 /* Sources */,
 				ECB2E1E31B82CF1B00BF4493 /* Frameworks */,
 				ECB2E1E41B82CF1B00BF4493 /* Resources */,
+				EC929B8AA4AF698A0B0544AF /* Embed Pods Frameworks */,
+				80990AF2C7EB85BA4E60D01F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +255,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80990AF2C7EB85BA4E60D01F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9814A7753B909A5411CD2D01 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC929B8AA4AF698A0B0544AF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECB2E1E21B82CF1B00BF4493 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC501ABF1B830A4100D9256D /* BrowserViewController.swift in Sources */,
+				EC501AC71B8317BB00D9256D /* ItemJSON.swift in Sources */,
+				ECEE04C71B845BAC00FFCEFB /* ItemCell.swift in Sources */,
+				EC501AC31B830CB800D9256D /* EndPoints.swift in Sources */,
 				ECB2E1EE1B82CF1B00BF4493 /* ViewController.swift in Sources */,
 				ECB2E1EC1B82CF1B00BF4493 /* AppDelegate.swift in Sources */,
+				EC501ABD1B83042200D9256D /* ItemsViewController.swift in Sources */,
+				EC501AC11B830B7700D9256D /* SearchManager.swift in Sources */,
+				ECB2E20C1B82D13000BF4493 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +441,7 @@
 		};
 		ECB2E2061B82CF1B00BF4493 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F850F0A3A7A93EF4D2990847 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = rakutenViewer/Info.plist;
@@ -348,6 +452,7 @@
 		};
 		ECB2E2071B82CF1B00BF4493 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E319CC9C0FB8D23A8759A78F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = rakutenViewer/Info.plist;
@@ -409,6 +514,7 @@
 				ECB2E2071B82CF1B00BF4493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECB2E2081B82CF1B00BF4493 /* Build configuration list for PBXNativeTarget "rakutenViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +523,7 @@
 				ECB2E20A1B82CF1B00BF4493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
