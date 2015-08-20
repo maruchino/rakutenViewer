@@ -17,17 +17,12 @@ class ItemsViewController: UITableViewController{
     
     override func viewDidLoad(){
         super.viewDidLoad()
-        
-        refresh()
 }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
    
-    @IBAction func refresh() {
-        
-    }
     
     func onDataChanged(result: Result<ItemsJSON,NSError>){
         if let value = result.value {
