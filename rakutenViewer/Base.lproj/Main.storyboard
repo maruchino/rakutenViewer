@@ -76,9 +76,6 @@
                     <navigationItem key="navigationItem" title="楽天商品一覧" id="G13-1t-bby"/>
                     <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="IQg-I5-3It">
                         <autoresizingMask key="autoresizingMask"/>
-                        <connections>
-                            <action selector="refresh" destination="A9j-kk-M82" eventType="valueChanged" id="0dX-Zr-URu"/>
-                        </connections>
                     </refreshControl>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dM1-Ca-HzI" userLabel="First Responder" sceneMemberID="firstResponder"/>

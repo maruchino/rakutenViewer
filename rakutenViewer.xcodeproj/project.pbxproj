@@ -49,7 +49,7 @@
 		ECB2E2001B82CF1B00BF4493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB2E2011B82CF1B00BF4493 /* rakutenViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rakutenViewerTests.swift; sourceTree = "<group>"; };
 		ECB2E20B1B82D13000BF4493 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		ECEE04C61B845BAC00FFCEFB /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCell.swift; path = "../../../Downloads/ios-intern-rakuten-api-sample-master-2/intern-sample/Classes/Views/ItemCell.swift"; sourceTree = "<group>"; };
+		ECEE04C61B845BAC00FFCEFB /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		EE5BDA02BF6D6590F5EF8C79 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F850F0A3A7A93EF4D2990847 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
