@@ -1,5 +1,5 @@
 //
-//  manager.swift
+//  SearchManager.swift
 //  rakutenViewer
 //
 //  Created by  intern on 2015/08/18.
@@ -11,7 +11,7 @@ import UIKit
 import Result
 
 public class SearchManager: NSObject{
-    private typealias Response = Result<[ItemJSON], NSError>
+    
     
     lazy var client: APIClient = APIClient()
     

@@ -1,5 +1,5 @@
 //
-//  controller1.swift
+//  ItemsViewController.swift
 //  rakutenViewer
 //
 //  Created by  intern on 2015/08/18.
@@ -19,14 +19,14 @@ class ItemsViewController: UITableViewController{
         super.viewDidLoad()
         
         refresh()
-    }
+}
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
    
     @IBAction func refresh() {
-        //manager.searchItems(onDataChanged)
+        
     }
     
     func onDataChanged(result: Result<ItemsJSON,NSError>){
@@ -63,7 +63,7 @@ extension ItemsViewController:UITableViewDataSource{
     let cell = tableView.dequeueReusableCellWithIdentifier("ItemCell",forIndexPath:indexPath) as! ItemCell
     cell.item = items[indexPath.row]
     return cell
-      }
-    }
+        }
+}
 
 

@@ -14,7 +14,7 @@ public class APIClient: NSObject{
     
     let baseURLString:String
     public convenience override init(){
-        self.init ( baseURLString:"https://app.rakuten.co.jp")
+        self.init (baseURLString:"https://app.rakuten.co.jp")
     }
     
     public init(baseURLString: String) {
@@ -30,7 +30,7 @@ public class APIClient: NSObject{
                 } else {
                     handler(endpoint.parser(JSON))
                 }
-        }
+            }
     }
 }
 

@@ -14,7 +14,6 @@
 		EC501AC31B830CB800D9256D /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC501AC21B830CB800D9256D /* EndPoints.swift */; };
 		EC501AC71B8317BB00D9256D /* ItemJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC501AC61B8317BB00D9256D /* ItemJSON.swift */; };
 		ECB2E1EC1B82CF1B00BF4493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2E1EB1B82CF1B00BF4493 /* AppDelegate.swift */; };
-		ECB2E1EE1B82CF1B00BF4493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2E1ED1B82CF1B00BF4493 /* ViewController.swift */; };
 		ECB2E1F11B82CF1B00BF4493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB2E1EF1B82CF1B00BF4493 /* Main.storyboard */; };
 		ECB2E1F31B82CF1B00BF4493 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB2E1F21B82CF1B00BF4493 /* Images.xcassets */; };
 		ECB2E1F61B82CF1B00BF4493 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB2E1F41B82CF1B00BF4493 /* LaunchScreen.xib */; };
@@ -43,7 +42,6 @@
 		ECB2E1E61B82CF1B00BF4493 /* rakutenViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rakutenViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB2E1EA1B82CF1B00BF4493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB2E1EB1B82CF1B00BF4493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECB2E1ED1B82CF1B00BF4493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECB2E1F01B82CF1B00BF4493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECB2E1F21B82CF1B00BF4493 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ECB2E1F51B82CF1B00BF4493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 				EC501AC21B830CB800D9256D /* EndPoints.swift */,
 				EC501AC61B8317BB00D9256D /* ItemJSON.swift */,
 				ECB2E1EB1B82CF1B00BF4493 /* AppDelegate.swift */,
-				ECB2E1ED1B82CF1B00BF4493 /* ViewController.swift */,
 				ECB2E20B1B82D13000BF4493 /* APIClient.swift */,
 				ECB2E1EF1B82CF1B00BF4493 /* Main.storyboard */,
 				ECB2E1F21B82CF1B00BF4493 /* Images.xcassets */,
@@ -312,7 +309,6 @@
 				EC501AC71B8317BB00D9256D /* ItemJSON.swift in Sources */,
 				ECEE04C71B845BAC00FFCEFB /* ItemCell.swift in Sources */,
 				EC501AC31B830CB800D9256D /* EndPoints.swift in Sources */,
-				ECB2E1EE1B82CF1B00BF4493 /* ViewController.swift in Sources */,
 				ECB2E1EC1B82CF1B00BF4493 /* AppDelegate.swift in Sources */,
 				EC501ABD1B83042200D9256D /* ItemsViewController.swift in Sources */,
 				EC501AC11B830B7700D9256D /* SearchManager.swift in Sources */,

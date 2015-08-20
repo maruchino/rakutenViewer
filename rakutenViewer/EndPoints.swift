@@ -1,5 +1,5 @@
 //
-//  endpoint.swift
+//  Endpoints.swift
 //  rakutenViewer
 //
 //  Created by  intern on 2015/08/18.
@@ -18,8 +18,8 @@ enum Error: Int{
     case NoUser = -401
     func error(_ userInfo: [NSObject : AnyObject]? = nil) -> NSError{
         return NSError(domain:Error.Domain, code: rawValue, userInfo: userInfo)
-        }
     }
+}
 
 
 
@@ -57,6 +57,6 @@ public struct SearchEndpoint:Endpoint{
     public typealias Response = ItemsJSON
     public var parser:AnyObject? -> Result<Response,NSError> = parse
     public init(keyword:String){
-        parameters = ["keyword": keyword, "format": "json", "applicationId" : "95587489578947"]
+        parameters = ["keyword": keyword, "format": "json", "applicationId" : "847948359459394859359"]
     }
 }

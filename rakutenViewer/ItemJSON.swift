@@ -1,5 +1,5 @@
 //
-//  item.swift
+//  ItemJSON.swift
 //  rakutenViewer
 //
 //  Created by  intern on 2015/08/18.
@@ -42,7 +42,7 @@ public class ItemJSON: MTLModel, MTLJSONSerializing  {
         "largeImage":"Item.largeImageUrl",
         "itemPrice":"Item.itemPrice",
         ]
-        }
+    }
     public class func itemURLJSONTransformer() -> NSValueTransformer{
         return NSValueTransformer(forName: MTLURLValueTransformerName)!
     }

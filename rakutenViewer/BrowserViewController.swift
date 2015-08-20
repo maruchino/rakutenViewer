@@ -1,5 +1,5 @@
 //
-//  Controller2.swift
+//  BrowtherViewController.swift
 //  rakutenViewer
 //
 //  Created by  intern on 2015/08/18.
