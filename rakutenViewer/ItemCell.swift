@@ -36,7 +36,7 @@ extension Int {
             formatter.groupingSize = 3
             
             return formatter.stringFromNumber(NSNumber(integer: self))
-            }
+        }
     }
 }
 
